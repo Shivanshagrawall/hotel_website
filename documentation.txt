@@ -1,0 +1,91 @@
+HTML Structure
+1. DOCTYPE Declaration and Meta Information
+<!DOCTYPE html>: Specifies the document type and version of HTML (HTML5).
+<html lang="en">: Declares the language of the document as English.
+<head>: Contains meta information about the document, including character encoding, viewport settings, and the title of the webpage.
+<link rel="stylesheet" href="style.css">: Links to the external CSS file (style.css) that styles the webpage.
+2. Header Section
+<header>: Represents the top section of the webpage.
+Navigation Section
+Contains a logo, navigation links (Home, About, Services, Explore, Contact), and a "BOOK NOW" button.
+Hero Section
+Includes a tagline and a main heading that welcomes visitors to the hotel.
+A "CHECK OUT" form section is included with options for check-in, check-out, and guest selection.
+3. About Us Section
+<section>: Represents the "About Us" part of the webpage.
+Image and Content
+Displays an image representing the hotel.
+A content area introduces the hotel with a brief description and a "READ MORE" button.
+4. Living Room Section
+<section>: Represents the "Living Room" part of the webpage.
+Room Details
+Displays information about three types of rooms: Deluxe Ocean View, Executive Cityscape Room, and Family Garden Retreat.
+Each room has an associated image, description, starting price, and a "BOOK NOW" button.
+5. Services Section
+<section>: Represents the "Services" part of the webpage.
+Service List
+Highlights four key services offered by the hotel: High-Class Security, 24 Hours Room Service, Conference Room, and Tourist Guide Support.
+6. Customer Section
+<section>: Represents customer statistics.
+Statistics
+Displays the number of properties available, bookings completed, and happy customers.
+7. Explore Section
+<section>: Represents the "Explore" part of the webpage.
+New Features
+Introduces new updates or features at the hotel, like a new menu, along with a "Continue" button for more details.
+8. Footer Section
+<footer>: Represents the footer of the webpage.
+Links and Contact Information
+Includes the hotel logo, a brief description, quick links, service links, and contact information.
+Copyright
+Displays copyright information.
+
+
+
+
+
+
+
+
+
+
+CSS Structure
+1. Root Variables
+Color Variables
+--primary-color: Primary theme color (#e82574).
+--primary-color-dark: Darker shade of the primary color (#bc1c5c).
+--text-dark: Dark text color (#0c0a09).
+--text-light: Light text color (#78716c).
+--white: White color (#ffffff).
+--max-width: Maximum content width (1200px).
+2. Global Styling
+Resets default margins and paddings to zero, and sets box-sizing to border-box for all elements.
+Sets the full height and width of the body.
+3. Header and Navigation Styling
+Header Section
+Sets the height of the header section and applies a background image.
+Navigation Section
+Configures the layout for the navigation bar, including logo positioning, link styling, and "BOOK NOW" button.
+Hero Text
+Centers the tagline and main heading, adjusts text size, and adds styling for the "CHECK OUT" form.
+4. About Us Section
+Layout and Styling
+Configures the flexbox layout to display the image and content side by side.
+Styles the heading, subheading, and paragraph with appropriate font sizes and colors.
+5. Living Room Section
+Room Cards
+Styles the cards displaying room options with images and text.
+Adjusts the layout for room images and content.
+6. Services Section
+Background and Content
+Sets a background image and applies styling to the service list.
+7. Customer Section
+Statistics Display
+Configures a flexbox layout for displaying customer statistics.
+8. Explore Section
+Content Styling
+Styles the "Explore" section with background images and adjusts the content layout for the update announcements.
+9. Footer Section
+Footer Layout and Styling
+Organizes the footer content into sections for quick links, services, and contact information.
+Styles the text and layout to ensure readability and accessibility.
